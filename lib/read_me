@@ -53,5 +53,5 @@ The project uses **GetX for state management** and **Firebase for backend storag
 ### 2. Clone the Repository
 
 ```bash
-git clone https://github.com/<your-username>/creator-portal.git
+git clone https://github.com/ahsi1999/creator.git
 cd creator-portal
