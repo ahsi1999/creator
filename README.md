@@ -1,12 +1,62 @@
 # creator
 
-A new Flutter project.
+# Creator Profile Portal
 
-## Getting Started
+A responsive Flutter web/mobile/desktop application to manage creators (influencers, designers, etc.).  
+Admins can **add creators**, **upload media**, and **view all profiles**.  
 
-This project is a starting point for a Flutter application.
+The project uses **GetX for state management** and **Firebase for backend storage**.
 
-A few resources to get you started if this is your first Flutter project:
+---
+
+##  Tech Stack
+
+- **Frontend:** Flutter 3.22+  
+  - Uses **Flutter Web, Mobile, and Desktop**  
+  - Responsive UI with **custom layouts & grids**  
+  - **GetX** for state management and routing  
+  - **CachedNetworkImage** for optimized media display  
+
+- **Backend:** Firebase  
+  - **Cloud Firestore** – Stores creator details and media URLs  
+  - **Firebase Storage** – Stores uploaded image/video 
+  - Firebase handles real-time data updates  
+
+- **Other Packages:**
+  - `uuid` – Generates unique IDs for creators and media  
+  - `cached_network_image` – Cached image loading with placeholders and error handling  
+  - `file_picker` – Picking image/video from device or web  
+
+---
+
+## 📝 Features
+
+- Add new creators with:
+  - Name, Designation, About, Price
+  - Image or video 
+- View creators in **responsive lists and grids**
+- Delete creators
+- Upload media in the **background** to improve user experience
+- Placeholder/error image handling with caching
+- Works on **Mobile, Tablet, and Desktop**
+- Fully responsive and modern UI inspired by Dribbble/Behance
+
+---
+
+## ⚙️ Setup Instructions
+
+### 1. Prerequisites
+
+- Flutter >=3.22  
+- Dart SDK >=3.0  
+- Firebase account and project  
+- Node.js and npm (optional for Firebase CLI)  
+
+### 2. Clone the Repository
+
+```bash
+git clone https://github.com/ahsi1999/creator.git
+cd creator-portal
 
 - [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
 - [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
